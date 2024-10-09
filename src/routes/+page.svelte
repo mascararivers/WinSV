@@ -1,4 +1,5 @@
 <script>
+	import { goto } from '$app/navigation';
     import '../scripts/gsap'
 </script>
 
@@ -18,9 +19,10 @@
         placeholder-white text-white bg-opacity-40 border-b-4 border-neutral-400 hover:backdrop-blur-md
         hover:scale-110 duration-200" id="password-field">
 
-        <button class="w-32 h-10 rounded-md bg-white opacity-50 text-md hover:scale-110 duration-200" id="enter-btn">Sign in</button>
+        <button class="w-32 h-10 rounded-md bg-white opacity-50 text-md 
+        hover:scale-110 duration-200" id="enter-btn" on:click={()=>goto('/home')}>Sign in</button>
     </div>
-    
+
 </div>
 
 <style>
