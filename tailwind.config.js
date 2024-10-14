@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,jsx,ts,tsx,svelte}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'product-sans': 'product-sans'
+      }
+    },
   },
   plugins: [],
 }
