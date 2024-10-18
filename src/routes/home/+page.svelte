@@ -8,5 +8,6 @@
 <style>
     :root {
         background-image: url('/background-2.jpg');
+        overflow: hidden;
     }
 </style>

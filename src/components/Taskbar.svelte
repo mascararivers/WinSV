@@ -1,7 +1,6 @@
 <script>
 // @ts-nocheck
-
-	import Chrome from "./windows/Chrome.svelte";
+import Chrome from "./windows/Chrome.svelte";
 
     let showWindow = false
     let shownWindow = ''
